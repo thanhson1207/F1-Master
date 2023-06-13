@@ -1,70 +1,41 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# F1-Findding
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Documentation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+User can find the infomation of the driver and their teams in the search bar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**List of the driver:**
 
-### `npm test`
+Alexander Albon, Fernando Alonso, Valtteri Bottas, Nyck De Vries, Pierre Gasly, Lewis Hamilton, Nico Hulkenberg, Charles Leclerc, Kevin Magnussen, Lando Norris, Esteban Ocon, Sergio Perez, Oscar Piastri, George Russell, Carlos Sainz, Logan Sargeant, Lance Stroll, Yuki Tsunoda, Max Verstappen, Zhou Guanyu.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**List of the Team:**
 
-### `npm run build`
+Alfa Romeo F1 Team Stake, Scuderia AlphaTauri, BWT Alpine F1 Team, Aston Martin Aramco Cognizant F1 Team, Scuderia Ferrari, MoneyGram Haas F1 Team, McLaren F1 Team, Mercedes-AMG PETRONAS F1 Team, Oracle Red Bull Racing, Williams Racing.
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Client:** React, HTML/CSS, JS, React Router DOM, Fortawesome.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
 
-### `npm run eject`
+The web is deloyed in vercel (https://f1-master.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Implementation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In each page, the web has 2 part: header and content.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Header include : logo, search bar and Menu
 
-## Learn More
+**Logo**: click and navitage to the homepage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Search bar**: search to find the infomation of the driver of the team
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Menu**: click it and scroll to list of picture of the driver or the team
 
-### Code Splitting
+Content in homepage include: the list of picture of the driver and the team.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Content in Infopage inclde: the infomation of the driver or the team, which is found by the user.
