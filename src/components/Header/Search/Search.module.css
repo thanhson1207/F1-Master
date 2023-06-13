@@ -1,0 +1,38 @@
+.searchInput{
+    flex: 1;
+    height: 100%;
+    margin-left: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.searchBox{
+    display: flex;
+    width: 50%;
+    height: 48px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: 999px;
+    position: relative;
+}
+
+.closeSearchIcon:hover{
+    cursor: pointer;
+}
+
+.tippySearch{
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: start;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+    background-color: #fff;
+}
