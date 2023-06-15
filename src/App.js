@@ -7,8 +7,10 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/info/:id" element={<DriverPage />} />
+          <div>
+            <Route path="/" element={<Home />} />
+            <Route path="/info/:id" element={<DriverPage />} />
+          </div>
         </Routes>
       </div>
     </Router>
